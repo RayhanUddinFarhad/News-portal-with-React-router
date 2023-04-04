@@ -11,7 +11,7 @@ const Newslist = (props) => {
     return (
         <div className='my-5'>
 
-<div className="card lg:card-side bg-base-100 shadow-xl h-full w-80 lg:w-full">
+<div className="card lg:card-side bg-base-100 shadow-xl h-full lg:w-full">
             <figure><img className='w-96' src={data.image_url} alt="Album" /></figure>
             <div className="card-body space-y-5">
                 <h2 className="card-title  w-full">{data.title}</h2>

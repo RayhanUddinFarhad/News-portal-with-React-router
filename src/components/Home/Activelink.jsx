@@ -3,13 +3,13 @@ import { NavLink } from 'react-router-dom';
 
 const Activelink = ({to, children}) => {
     return (
-        <div >
+        <div  >
 
 <NavLink 
                     to={to}
                     className={({ isActive, isPending }) =>
                       isActive
-                        ? "bg-[#EEEFFF] p-3 text-[#5D5FEF] "
+                        ? "bg-[#EEEFFF] lg:p-3 text-[#5D5FEF] "
                         : isPending
                         ? "text-gray-400"
                         : ""
